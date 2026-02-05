@@ -1,6 +1,11 @@
 [![Python](https://img.shields.io/badge/Python-3.7%2B-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Last Updated](https://img.shields.io/badge/Last%20Updated-2023-blueviolet.svg)](#)
+<p align="center">
+  <a href="https://www.airbnb.com" target="_blank">
+    <img src="Airbnb_Logo_Bélo.svg.png" width="250" alt="Airbnb Logo">
+  </a>
+</p>
 
 # U.S. Airbnb Analysis (2020 & 2023)
 
