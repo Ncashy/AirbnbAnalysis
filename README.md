@@ -1,13 +1,24 @@
-[![Python](https://img.shields.io/badge/Python-3.7%2B-blue.svg)](https://www.python.org/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-2023-blueviolet.svg)](#)
+
 <p align="center">
   <a href="https://www.airbnb.com" target="_blank">
     <img src="Airbnb_Logo_Bélo.svg.png" width="250" alt="Airbnb Logo">
   </a>
 </p>
 
-# U.S. Airbnb Analysis (2020 & 2023)
+<h1 align="center">U.S. Airbnb Analysis (2020 & 2023)</h1>
+
+<p align="center">
+  <a href="https://www.python.org/">
+    <img src="https://img.shields.io/badge/Python-3.7%2B-blue.svg" alt="Python">
+  </a>
+  <a href="LICENSE">
+    <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License">
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/badge/Last%20Updated-2023-blueviolet.svg" alt="Last Updated">
+  </a>
+</p>
+
 
 Exploratory data analysis and comparative insights on U.S. Airbnb listings using 2020 and 2023 snapshots. This project examines pricing behavior, regional variation, room-type trends, and market shifts over time through statistical analysis, visualization, and preliminary modeling.
 
