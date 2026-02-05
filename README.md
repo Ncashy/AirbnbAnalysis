@@ -1,4 +1,3 @@
-
 <p align="center">
   <a href="https://www.airbnb.com" target="_blank">
     <img src="Airbnb_Logo_Bélo.svg.png" width="250" alt="Airbnb Logo">
@@ -18,7 +17,6 @@
     <img src="https://img.shields.io/badge/Last%20Updated-2023-blueviolet.svg" alt="Last Updated">
   </a>
 </p>
-
 
 Exploratory data analysis and comparative insights on U.S. Airbnb listings using 2020 and 2023 snapshots. This project examines pricing behavior, regional variation, room-type trends, and market shifts over time through statistical analysis, visualization, and preliminary modeling.
 
@@ -56,9 +54,9 @@ Listing-level attributes include:
 - Minimum nights
 - Review counts and frequency
 - Availability
-- Host listing counts
+- Host listing counts  
 
-(Exact column names may vary slightly by dataset version.)
+*(Exact column names may vary slightly by dataset version.)*
 
 ---
 
@@ -101,46 +99,31 @@ The notebook includes:
 ## Installation
 ```bash
 pip install pandas numpy matplotlib seaborn plotly scikit-learn folium
-
 ```
 ---
 
-## How to Run
-1. Clone this repository.
-2. Place `AB_US_2020.csv` and `AB_US_2023.csv` in the project root directory.
-3. Open `main.ipynb`.
-4. Execute cells sequentially from top to bottom.
+## Streamlit Dashboard
+This repository also includes a **Streamlit application** that can be run locally to explore the datasets interactively. The dashboard supports:
 
----
+- Switching between **2020** and **2023** listing snapshots  
+- Filtering by **city**, **room type**, and **price range**  
+- Quick KPI metrics (total listings, average/median price, reviews per month)  
+- Interactive Plotly visualizations (histograms, bar charts)  
+- A geographic map view using latitude/longitude  
+- A raw data table for reviewing filtered records  
 
-## Notes & Known Issues
-- **Skew/Kurtosis overwrite**: One statistics cell overwrites skewness with kurtosis due to reused index labels. Use distinct labels to retain both metrics.
-- **pandas compatibility**: `DataFrame.between()` behavior varies by pandas version. If issues arise, replace with explicit conditional filtering.
-- **Manual mappings**: City-to-state mappings are partially manual and may require defensive `.get()` handling to avoid key errors.
-- **Interactive plots**: Large datasets may slow Plotly or Folium rendering. Sampling is recommended for rapid iteration.
-- **Folium display**: Jupyter may require the notebook to be trusted (`File → Trust Notebook`) for maps to render.
+**Files:**
+- `app.py` (Streamlit dashboard)
+- `airbnb.png` (dashboard header image)
 
----
-
-## Future Work
-- Modular preprocessing pipelines
-- Feature engineering for predictive modeling
-- Regression and ensemble models for price prediction
-- Cross-validation and hyperparameter tuning
-- NLP-based analysis of listing titles
-- Deployment of an interactive dashboard
-
----
-
-## License
-This repository is intended for educational and portfolio purposes.  
-All dataset credit remains with **Inside Airbnb**.
-
----
-
+**Run locally:**
+```bash
+pip install streamlit pandas plotly
+streamlit run app.py
+```
 ## Author
 **Nadia (Ncashy)**  
 Data Analytics & Data Science  
-GitHub For Fun Project
+GitHub Portfolio Project
 
 
