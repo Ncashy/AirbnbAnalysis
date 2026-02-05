@@ -1,0 +1,54 @@
+U.S. Airbnb Streamlit Dashboard – Usage Instructions
+----------------------------------------------------
+
+This project contains a Streamlit dashboard for exploring U.S. Airbnb listings
+using datasets from 2020 and 2023.
+
+Files Required:
+- app.py
+- AB_US_2020.csv
+- AB_US_2023.csv
+- airbnb.png
+
+All files must be located in the same directory.
+
+----------------------------------------------------
+Setup Instructions
+
+1. Ensure Python 3.7 or higher is installed.
+
+2. Install required packages:
+   pip install streamlit pandas plotly
+
+3. Navigate to the project directory in your terminal.
+
+----------------------------------------------------
+Running the Dashboard
+
+Run the following command:
+   streamlit run app.py
+
+A browser window will open automatically displaying the dashboard.
+
+----------------------------------------------------
+Dashboard Features
+
+- Toggle between 2020 and 2023 datasets
+- Filter listings by city, room type, and price range
+- View key metrics such as average and median price
+- Explore price distributions and room-type breakdowns
+- View listings on an interactive map
+- Inspect filtered raw data
+
+----------------------------------------------------
+Notes
+
+- Large datasets may cause slower map rendering.
+- Sampling data may improve performance for quick testing.
+- This project is for educational and portfolio use only.
+- This dashboard is not affiliated with Airbnb.
+
+----------------------------------------------------
+Author
+Nadia (Ncashy)
+Data Analytics & Data Science
